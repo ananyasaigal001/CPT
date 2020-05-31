@@ -1,10 +1,15 @@
 '''
-Choose your own adventure story game
+Chose your own adventure story
 '''
 #function iterates over dictionary to give the user choices to pick
 def choice(d):
     for key,value in d.items():
         print(key,value)
+
+#function outputs the value from the key
+def option(dic):
+    for key in dic:
+        print (key,end=" ")
 #intro
 age=int(input("Enter a age which is included in the teenager category:"))
 print("You are", age,"years old.Your family is not normal, it never was,you never had many friends or much of a social life.")
@@ -35,12 +40,13 @@ if(choice_one == "a"):
   print("You are so humiliated, that you to run to the washroom and break out in tears on the way.")
   print("You are not in the washroom for too long before the bell rings.")
   print("You quickly wipe away your tears and run out leaving your diary behind.")
-  print("You  start breaking down in class in front of the strictest teacher. 
+  print("You  start breaking down in class in front of the strictest teacher.") 
   print("He comes up and asks you whats wrong.")
 
   #choice 2 (a,b)
   choice_2_ab={'a:':'You tell the teacher what happened','b:':'You tell the teacher that you have dust in your eye'}
   option_2_ab=choice(choice_2_ab)
+
 
 elif(choice_one == "b"):
   print("You walk past them to a lonely table in the corner where you sit alone and do your math homework.")
@@ -50,7 +56,30 @@ elif(choice_one == "b"):
   print("You are not in the washroom for too long before the bell rings.")
   print("You quickly wipe away your tears and run out leaving your diary behind.")
   print("You start breaking down in class in front of the strictest teacher. He comes up and asks you whats wrong.")
-  
   #choice 2 (a,b)
   print("option a is:","You tell the teacher what happened")
   print("option b is:","You tell the teacher that you have dust in your eye")
+
+
+
+elif(choice_one == "c"):
+  print("Your eyes are puffy, and red you can’t stop crying and struggle to pull yourself together.")
+  print("You hear the bell ring and rush to your classroom forgetting your diary behind.")
+  print("You only realize when the class has already started. The teacher is really strict and probably won’t let you leave to get it.")
+
+  #choice 2
+  choice_2={'a:':'You ask to go to the washroom','b:':'You quickly rush out of the class to get it'}
+  option_2=choice(choice_2)
+  choice_two = input("Which option do you pick a or b? ")
+
+
+
+if(choice_two == "a" or choice_two == "b" ):
+  print("Your teacher stops you from going to the washroom and you remain in class. He sees your eyes are puffy and asks you whats wrong.")
+
+  #choice 2 (a,b)
+  choice_2_ab={'a:':'You tell the teacher what happened','b:':'You tell the teacher that you have dust in your eye'}
+  option_2_ab=choice(choice_2_ab)
+
+#choose an option
+choice_two_ab = input("Which option do you pick a,b? ")
