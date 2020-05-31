@@ -38,6 +38,9 @@ if(choice_one == "a"):
   print("You  start breaking down in class in front of the strictest teacher. 
   print("He comes up and asks you whats wrong.")
 
+#choice 2 (a,b)
+choice_2_ab={'a:':'You tell the teacher what happened','b:':'You tell the teacher that you have dust in your eye'}
+option_2_ab=choice(choice_2_ab)
 
 
 
