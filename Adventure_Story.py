@@ -42,5 +42,15 @@ if(choice_one == "a"):
   choice_2_ab={'a:':'You tell the teacher what happened','b:':'You tell the teacher that you have dust in your eye'}
   option_2_ab=choice(choice_2_ab)
 
-
-
+elif(choice_one == "b"):
+  print("You walk past them to a lonely table in the corner where you sit alone and do your math homework.")
+  print("You have no one to talk to and you feel lonely. All around you, you see people laughing with their friends and having fun.")
+  print("You get out your phone to check the time when you see a meme of yourself in handcuffs saying “Like father like daughter”.")
+  print("You can’t take it anymore, it is not your fault that your family is this way. You run to the washroom to cry.")
+  print("You are not in the washroom for too long before the bell rings.")
+  print("You quickly wipe away your tears and run out leaving your diary behind.")
+  print("You start breaking down in class in front of the strictest teacher. He comes up and asks you whats wrong.")
+  
+  #choice 2 (a,b)
+  print("option a is:","You tell the teacher what happened")
+  print("option b is:","You tell the teacher that you have dust in your eye")
