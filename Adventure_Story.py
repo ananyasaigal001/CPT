@@ -2,8 +2,8 @@
 Choose your own adventure story game
 '''
 #function iterates over dictionary to give the user choices to pick
-def choice(dict):
-    for key,value in dict.items():
+def choice(d):
+    for key,value in d.items():
         print(key,value)
 #intro
 age=int(input("Enter a age which is included in the teenager category:"))
@@ -38,9 +38,9 @@ if(choice_one == "a"):
   print("You  start breaking down in class in front of the strictest teacher. 
   print("He comes up and asks you whats wrong.")
 
-#choice 2 (a,b)
-choice_2_ab={'a:':'You tell the teacher what happened','b:':'You tell the teacher that you have dust in your eye'}
-option_2_ab=choice(choice_2_ab)
+  #choice 2 (a,b)
+  choice_2_ab={'a:':'You tell the teacher what happened','b:':'You tell the teacher that you have dust in your eye'}
+  option_2_ab=choice(choice_2_ab)
 
 
 
