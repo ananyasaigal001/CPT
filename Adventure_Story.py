@@ -83,3 +83,10 @@ if(choice_two == "a" or choice_two == "b" ):
 
 #choose an option
 choice_two_ab = input("Which option do you pick a,b? ")
+
+#results for choice 2ab
+if(choice_two_ab == "a"):
+  print("You tell the teacher that people have been making fun of you because of your family.")
+  print("Your teacher looks uncomfortable and tells you to come see him after class.")
+  print("People around you start whispering about you being a snitch.")
+  print("You see a group of people including your best friend looking at a book and laughing.")
