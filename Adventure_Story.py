@@ -6,7 +6,8 @@ def choice(dict):
     for key,value in dict.items():
         print(key,value)
 #intro
-print("Your family is not normal, it never was,you never had many friends or much of a social life.")
+age=int(input("Enter a age which is included in the teenager category:"))
+print("You are", age,"years old.Your family is not normal, it never was,you never had many friends or much of a social life.")
 print("You live in small town where everyone knows each other. Everyone judges you for your dysfunctional family.")
 print("However things became worse when the police came to arrest your father.")
 print("The next day you woke up to a series of negative messages on your social media accounts.")
