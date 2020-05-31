@@ -90,3 +90,17 @@ if(choice_two_ab == "a"):
   print("Your teacher looks uncomfortable and tells you to come see him after class.")
   print("People around you start whispering about you being a snitch.")
   print("You see a group of people including your best friend looking at a book and laughing.")
+  
+  #choice 3
+  choice_list=["option a is: You ignore them and keep your head down","option b is: You tell them to stop laughing"]
+  for word in choice_list:
+      print(word)
+
+elif(choice_two_ab =="b"):
+  print("Your teacher looks relieved and continues the lesson.")
+  print("You see a group of people including your best friend looking at a book and laughing.")
+  
+  #choice 3
+  choice_list=["option a is: You ignore them and keep your head down","option b is: You tell them to stop laughing"]
+  for word in choice_list:
+      print(word)
