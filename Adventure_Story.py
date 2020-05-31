@@ -14,16 +14,29 @@ print("The next day you woke up to a series of negative messages on your social 
 print("When you arrived at school everyone was gossiping about you.")
 print("At recess your best friend was laughing at you with other people,when you walked past her she wouldn’t make eye contact with you.")
 
- #choice one
-choice_one={'option a:':'You go up to your friend and say Hi','option b:':'You ignore them and walk away','option c:':'You go to the washroom and cry'}
-option_one=choice(choice_one)
+#choice one
+choice_1={'a:':'You go up to your friend and say Hi','b:':'You ignore them and walk away','c:':'You go to the washroom and cry'}
+option_one=choice(choice_1)
 
 #choose which option
-choice_1 = input("Which option do you pick a,b or c? ")
+choice_one = input("Which option do you pick a,b or c? ")
 
 choice_two = "c"
 choice_six = "a"
 
+
+#results from first choice
+if(choice_one == "a"):
+  print("Your friend says Hi back, but with a smirk, then she says that she does not want to talk to you.")
+  print("As you are a criminal and loudly whispers to her friend that you are a loser like your father.")
+  print("She falsely accuses you of taking things from her home.")
+  print("She then takes your hand and snatches the bracelet you are wearing claiming you stole it.")
+  print("You remind her that she had given it to you as a present on your birthday but she calls you a liar.")
+  print("You are so humiliated, that you to run to the washroom and break out in tears on the way.")
+  print("You are not in the washroom for too long before the bell rings.")
+  print("You quickly wipe away your tears and run out leaving your diary behind.")
+  print("You  start breaking down in class in front of the strictest teacher. 
+  print("He comes up and asks you whats wrong.")
 
 
 
