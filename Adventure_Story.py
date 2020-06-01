@@ -57,8 +57,8 @@ elif(choice_one == "b"):
   print("You quickly wipe away your tears and run out leaving your diary behind.")
   print("You start breaking down in class in front of the strictest teacher. He comes up and asks you whats wrong.")
   #choice 2 (a,b)
-  print("option a is:","You tell the teacher what happened")
-  print("option b is:","You tell the teacher that you have dust in your eye")
+  print("a:","You tell the teacher what happened")
+  print("b:","You tell the teacher that you have dust in your eye")
 
 
 
@@ -92,7 +92,7 @@ if(choice_two_ab == "a"):
   print("You see a group of people including your best friend looking at a book and laughing.")
   
   #choice 3
-  choice_list=["option a is: You ignore them and keep your head down","option b is: You tell them to stop laughing"]
+  choice_list=["a: You ignore them and keep your head down","b: You tell them to stop laughing"]
   for word in choice_list:
       print(word)
 
@@ -110,6 +110,12 @@ choice_three = input("Which option do you pick a,b? ")
 
 #results for choice 3
 if(choice_three == "a" or choice_three == "b" ):
-  print("You go the washroom after the period is over and search for you diary,but you can not find it.")
-  print("You look for it in the lost and found, but it isn’t there.")
+  print_list=["You go the washroom after the period is over and search for you diary,but you can not find it.","You look for it in the lost and found, but it isn’t there."]
+  for word in print_list:
+      print(word)
+  #choice 4
+  print("a:","Go to the office and check there")
+  print("b:", "You go out to the fields to check over there")
 
+#choose an option
+choice_four = input("Which option do you pick a,b? ")
