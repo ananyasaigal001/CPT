@@ -87,17 +87,16 @@ if(choice_two_ab == "a"):
   print("People around you start whispering about you being a snitch.")
   print("You see a group of people including your best friend looking at a book and laughing.")
   
-  #choice 3
-  choice_list=["a: You ignore them and keep your head down","b: You tell them to stop laughing"]
-  for word in choice_list:
-      print(word)
+#choice 3
+choice_list=["a: You ignore them and keep your head down","b: You tell them to stop laughing"]
+for word in choice_list:
+    print(word)
 
-elif(choice_two_ab =="b"):
+if(choice_two_ab =="b"):
   print("Your teacher looks relieved and continues the lesson.")
   print("You see a group of people including your best friend looking at a book and laughing.")
   
   #choice 3
-  choice_list=["option a is: You ignore them and keep your head down","option b is: You tell them to stop laughing"]
   for word in choice_list:
       print(word)
 
@@ -121,3 +120,21 @@ if(choice_four == "a" or choice_four == "b"):
   print("Your diary is nowhere to be found so you go home and start on your homework.")
   print("In the evening you see a bunch of posts showing intimate lines from your diary. ")
   print("You see a series of messages making fun of what you wrote and there was a group chat started to ridicule you further.")
+
+  #choice 5
+  choice_5={'a:':'You tell your Mom what is going on','b:':'You do nothing'}
+  option_5=choice(choice_5)
+  
+  #choose an option
+  choice_five = input("Which option do you pick a,b? ")
+  
+#results for choice 5
+if(choice_five =="a"):
+  print("Your Mom refuses to listen your problems as she is facing her own  financial difficulties and tells you not to worry and says its normal.You go back to doing your homework. ")
+  print("The next day you talk to your favourite teacher about your issues and she promises to talk to the students and tells you not to worry and everything will be fine. ")
+  print("After the conversation you feel relieved and know that now everything will be fine. ")
+  print("A couple days later the messages have stopped and the teacher asks you if you are fine")
+
+  #choice 6
+  print("option a:","You tell her you are fine and thank her and give her a present")
+  print("option b:","You tell her you are miserable and everything is breaking apart")
