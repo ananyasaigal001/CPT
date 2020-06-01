@@ -104,3 +104,12 @@ elif(choice_two_ab =="b"):
   choice_list=["option a is: You ignore them and keep your head down","option b is: You tell them to stop laughing"]
   for word in choice_list:
       print(word)
+
+#choose an option
+choice_three = input("Which option do you pick a,b? ")
+
+#results for choice 3
+if(choice_three == "a" or choice_three == "b" ):
+  print("You go the washroom after the period is over and search for you diary,but you can not find it.")
+  print("You look for it in the lost and found, but it isn’t there.")
+
