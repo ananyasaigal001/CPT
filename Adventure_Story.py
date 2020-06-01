@@ -119,3 +119,9 @@ if(choice_three == "a" or choice_three == "b" ):
 
 #choose an option
 choice_four = input("Which option do you pick a,b? ")
+
+#results for choice 4
+if(choice_four == "a" or choice_four == "b"):
+  print("Your diary is nowhere to be found so you go home and start on your homework.")
+  print("In the evening you see a bunch of posts showing intimate lines from your diary. ")
+  print("You see a series of messages making fun of what you wrote and there was a group chat started to ridicule you further.")
