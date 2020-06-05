@@ -10,6 +10,7 @@ def choice(d):
 def option(dic):
     for key in dic:
         print (key,end=" ")
+
 #intro
 age=int(input("Enter a age which is included in the teenager category:"))
 print("You are", age,"years old.Your family is not normal, it never was,you never had many friends or much of a social life.")
@@ -149,23 +150,20 @@ elif(choice_five =="b"):
   print("As your phone keeps buzzing with more and more horrible jokes you dig yourself into a hole filled with isolation and depression.")
   print("Eventually you get to a point where you can’t take it anymore.")
   print("A couple days later the messages reach to a point where they are hating on everything about you.")
-  print("On the weekend you question everything about yourself.")
-  print("Your father is in prison, your mother can’t see the pain your in, your grades are falling and everyone at your school hates you.")
-  print("You feel lost there is only one option you see. Something that will finally take the pain away.")
-  print("You reach into the kitchen cupboard and pull it your sharpest knife.")
-  print("You hesitate, you want to tell everyone you loved a final goodbye.")
-  print("You cut into your flesh and form two letters with your blood.One to your mom and one to your best friend. ")
-  print("In the letter to your mom, you tell her that it is not her fault that you are doing this.")
-  print("You tell her,that this is the best for everyone.")
-  print("In the letter to your best friend, you tell her that you forgive her.")
-  print("You tell her that in these last days,you have not remembered her for the bad things she has done to you.")
-  print("But for all the happy memories together.")
-  print("You remind her of some of the good memories and then you end the letter.")
-  print("Then,you go out into backyard careful not to wake your mother.")
-  print("You inch the knife into your chest. Should I do this you ask yourself.")
-  print("Deep down inside you hesitate once more.Then you remember how quickly the pain will end and you’ll finally be free.")
-  print("You push the knife hard into your chest delivering one final scream and then its over.")
-
+finale=["On the weekend you question everything about yourself.",
+    "Your father is in prison, your mother can’t see the pain your in, your grades are falling and everyone at your school hates you.",
+    "You feel lost there is only one option you see. Something that will finally take the pain away.","You reach into the kitchen cupboard and pull it your sharpest knife.",
+    "You hesitate, you want to tell everyone you loved a final goodbye.",
+    "You cut into your flesh and form two letters with your blood.One to your mom and one to your best friend. ",
+    "In the letter to your mom, you tell her that it is not her fault that you are doing this.","You tell her,that this is the best for everyone.",
+    "In the letter to your best friend, you tell her that you forgive her.",
+    "You tell her that in these last days,you have not remembered her for the bad things she has done to you.",
+    "But for all the happy memories together.","You remind her of some of the good memories and then you end the letter.",
+    "Then,you go out into backyard careful not to wake your mother.","You inch the knife into your chest. Should I do this you ask yourself.",
+    "Deep down inside you hesitate once more.Then you remember how quickly the pain will end and you’ll finally be free.",
+    "You push the knife hard into your chest delivering one final scream and then its over."]
+for sentence in finale:
+      print(sentence)
 #result from choice 6
 if (choice_six=="a"):
     print("Slowly things become alright, your dad will be out of the prison in 2 months.")
@@ -176,19 +174,5 @@ if (choice_six=="a"):
 
 
 elif (choice_six=="b"):
-    print("On the weekend you question everything about yourself.")
-    print("Your father is in prison, your mother can’t see the pain your in, your grades are falling and everyone at your school hates you.")
-    print("You feel lost there is only one option you see. Something that will finally take the pain away.")
-    print("You reach into the kitchen cupboard and pull it your sharpest knife.")
-    print("You hesitate, you want to tell everyone you loved a final goodbye.")
-    print("You cut into your flesh and form two letters with your blood.One to your mom and one to your best friend. ")
-    print("In the letter to your mom, you tell her that it is not her fault that you are doing this.")
-    print("You tell her,that this is the best for everyone.")
-    print("In the letter to your best friend, you tell her that you forgive her.")
-    print("You tell her that in these last days,you have not remembered her for the bad things she has done to you.")
-    print("But for all the happy memories together.")
-    print("You remind her of some of the good memories and then you end the letter.")
-    print("Then,you go out into backyard careful not to wake your mother.")
-    print("You inch the knife into your chest. Should I do this you ask yourself.")
-    print("Deep down inside you hesitate once more.Then you remember how quickly the pain will end and you’ll finally be free.")
-    print("You push the knife hard into your chest delivering one final scream and then its over.")
+    for sentence in finale:
+      print(sentence)
