@@ -7,18 +7,18 @@ def choice(d):
         print(key,value)
 
 #function outputs the value from the key
-def option(dic):
-    for key in dic:
-        print (key,end=" ")
+def output(l):
+    for sentence in l:
+        print(sentence)
 
 #intro
 age=int(input("Enter a age which is included in the teenager category:"))
-print("You are", age,"years old.Your family is not normal, it never was,you never had many friends or much of a social life.")
+print("You are", age,"years old.Your family is not normal, it never was, you never had many friends or much of a social life.")
 print("You live in small town where everyone knows each other. Everyone judges you for your dysfunctional family.")
-print("However things became worse when the police came to arrest your father.")
+print("However things become worse when the police comes to arrest your father.")
 print("The next day you woke up to a series of negative messages on your social media accounts.")
-print("When you arrived at school everyone was gossiping about you.")
-print("At recess your best friend was laughing at you with other people,when you walked past her she wouldn’t make eye contact with you.")
+print("When you arrive at school everyone is gossiping about you.")
+print("At recess your best friend is laughing at you with other people,when you walk past her she wouldn’t make eye contact with you.")
 
 #choice one
 choice_1={'a:':'You go up to your friend and say Hi','b:':'You ignore them and walk away','c:':'You go to the washroom and cry'}
@@ -90,16 +90,14 @@ if(choice_two_ab == "a"):
   
 #choice 3
 choice_list=["a: You ignore them and keep your head down","b: You tell them to stop laughing"]
-for word in choice_list:
-    print(word)
+option_3=output(choice_list)
 
 if(choice_two_ab =="b"):
   print("Your teacher looks relieved and continues the lesson.")
   print("You see a group of people including your best friend looking at a book and laughing.")
   
   #choice 3
-  for word in choice_list:
-      print(word)
+  option_3=output(choice_list)
 
 #choose an option
 choice_three = input("Which option do you pick a,b? ")
@@ -107,8 +105,8 @@ choice_three = input("Which option do you pick a,b? ")
 #results for choice 3
 if(choice_three == "a" or choice_three == "b" ):
   print_list=["You go the washroom after the period is over and search for you diary,but you can not find it.","You look for it in the lost and found, but it isn’t there."]
-  for word in print_list:
-      print(word)
+  result=output(print_list)
+
   #choice 4
   print("a:","Go to the office and check there")
   print("b:", "You go out to the fields to check over there")
@@ -162,8 +160,8 @@ finale=["On the weekend you question everything about yourself.",
     "Then,you go out into backyard careful not to wake your mother.","You inch the knife into your chest. Should I do this you ask yourself.",
     "Deep down inside you hesitate once more.Then you remember how quickly the pain will end and you’ll finally be free.",
     "You push the knife hard into your chest delivering one final scream and then its over."]
-for sentence in finale:
-      print(sentence)
+statement=output(finale)
+
 #result from choice 6
 if (choice_six=="a"):
     print("Slowly things become alright, your dad will be out of the prison in 2 months.")
@@ -174,5 +172,4 @@ if (choice_six=="a"):
 
 
 elif (choice_six=="b"):
-    for sentence in finale:
-      print(sentence)
+    ending=output(finale)
