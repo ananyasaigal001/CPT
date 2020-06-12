@@ -12,10 +12,11 @@ def output(l):
         print(sentence)
 
 #intro
-age=int(input("Enter a age which is included in the teenager category:"))
+age=int(input("Enter a age which is included in the teenager category(don't write the age in words):"))
+money=float(input("Enter a large sum of money(don't write the money in words):"))
 print("You are", age,"years old.Your family is not normal, it never was, you never had many friends or much of a social life.")
 print("You live in small town where everyone knows each other. Everyone judges you for your dysfunctional family.")
-print("However things become worse when the police comes to arrest your father.")
+print("However things become worse when the police comes to arrest your father for conducting a fraud of $",money)
 print("The next day you woke up to a series of negative messages on your social media accounts.")
 print("When you arrive at school everyone is gossiping about you.")
 print("At recess your best friend is laughing at you with other people,when you walk past her she wouldn’t make eye contact with you.")
@@ -173,3 +174,4 @@ if (choice_six=="a"):
 
 elif (choice_six=="b"):
     ending=output(finale)
+    
