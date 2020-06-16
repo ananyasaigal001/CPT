@@ -29,8 +29,12 @@ finale=["On the weekend you question everything about yourself.",
     "You push the knife hard into your chest delivering one final scream and then its over."] 
 
 #intro
-age=int(input("Enter a age which is included in the teenager category(don't write the age in words):"))
+
 money=float(input("Enter a large sum of money(don't write the money in words):"))
+print("How old are you:")
+for i in range(13,20):
+  print(i)
+age=int(input("Enter an age from the options above:"))
 print("You are", age,"years old.Your family is not normal, it never was, you never had many friends or much of a social life.")
 print("You live in small town where everyone knows each other. Everyone judges you for your dysfunctional family.")
 print("However things become worse when the police comes to arrest your father for conducting a fraud of $",money)
@@ -163,3 +167,6 @@ if (choice_six=="a"):
 
 elif (choice_six=="b"): 
   ending=output(finale)
+   
+   
+    
