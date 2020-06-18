@@ -16,20 +16,20 @@ choice_six = "y"
 choice_2_ab={'a:':'You tell the teacher what happened','b:':'You tell the teacher that you have dust in your eye'}
 choice_list=["a: You ignore them and keep your head down","b: You tell them to stop laughing"]
 finale=["On the weekend you question everything about yourself.",
-    "Your father is in prison, your mother can’t see the pain your in, your grades are falling and everyone at your school hates you.",
-    "You feel lost there is only one option you see. Something that will finally take the pain away.","You reach into the kitchen cupboard and pull it your sharpest knife.",
-    "You hesitate, you want to tell everyone you loved a final goodbye.",
-    "You cut into your flesh and form two letters with your blood.One to your mom and one to your best friend. ",
-    "In the letter to your mom, you tell her that it is not her fault that you are doing this.","You tell her,that this is the best for everyone.",
+    "Your father is in prison, your mother can’t see the pain your in, your best friend has let you down, and your grades are falling.",
+    "You feel lost, isolated from the world, and feel like you are losing your sanity.","You have gotten to a point where you can’t take it anymore, you feel tired of fighting day in and day out.", 
+    "There is only one option you see.You reach into the kitchen cupboard and pull out your sharpest knife.","You hesitate, you want to tell everyone you loved a final goodbye.",
+    "You write two letters,one to your mom and one to your best friend.","In the letter to your mom, you tell her that it is not her fault that you are doing this.",
+    "You tell her, that this is best for everyone, and you are going to a happier place.",
     "In the letter to your best friend, you tell her that you forgive her.",
-    "You tell her that in these last days,you have not remembered her for the bad things she has done to you.",
-    "But for all the happy memories together.","You remind her of some of the good memories and then you end the letter.",
-    "Then,you go out into backyard careful not to wake your mother.","You inch the knife into your chest. Should I do this you ask yourself.",
-    "Deep down inside you hesitate once more.Then you remember how quickly the pain will end and you’ll finally be free.",
-    "You push the knife hard into your chest delivering one final scream and then its over."] 
+    "You tell her that in the last couple of days, you have been remembering all of the happy memories you had together.",
+    "Reminding her of few of the instances you end the letter.","Then,you go out into the backyard and start inching the knife into your chest. Should I do this, you ask yourself.",
+    "Deep down inside you hesitate once more.But you remember how everyone in your life has failed you.",
+    "You require peace, your already tangled life is getting further tangled.","You remind yourself that you are not being weak and it is not your fault, life and society has brought you to this point.",
+    "Hoping for peace and happiness on the other side,",
+    "you push the knife hard into your chest delivering one final scream and then its over."] 
 
 #intro
-
 money=float(input("Enter a large sum of money(don't write the money in words):"))
 print("How old are you:")
 for i in range(13,20):
@@ -40,7 +40,7 @@ print("You live in small town where everyone knows each other. Everyone judges y
 print("However things become worse when the police comes to arrest your father for conducting a fraud of $",money)
 print("The next day you wake up to a series of negative messages on your social media accounts.")
 print("When you arrive at school everyone is gossiping about you.")
-print("At recess your best friend is laughing at you with other people,when you walk past her she wouldn’t make eye contact with you.")
+print("At lunch your best friend is laughing at you with other people,when you walk past her she wouldn’t make eye contact with you.")
 
 #choice one
 choice_1={'a:':'You go up to your friend and say Hi','b:':'You ignore them and walk away','c:':'You go to the washroom and cry'}
@@ -128,7 +128,7 @@ choice_four = input("Which option do you pick a,b? ")
 if(choice_four == "a" or choice_four == "b"):
   print("Your diary is nowhere to be found so you go home and start on your homework.")
   print("In the evening you see a bunch of posts showing intimate lines from your diary. ")
-  print("You see a series of messages making fun of what you wrote and there was a group chat started to ridicule you further.")
+  print("You see a series of messages making fun of what you wrote and there is a group that has been made to ridicule you further.")
   #choice 5
   choice_5={'a:':'You tell your Mom what is going on','b:':'You do nothing'}
   option_5=choice(choice_5)
@@ -138,21 +138,20 @@ if(choice_five =="a"):
   print("Your Mom refuses to listen your problems as she is facing her own financial difficulties.") 
   print("She tells you not to worry and says its normal.You go back to doing your homework.")
   print("The next day you talk to your favourite teacher about your issues and she promises to talk to the students.")
-  print("She assures you that everything will be fine and tells you not to worry.")
+  print("She assures you that everything will be fine and tells you not to worry and even gives you a therapist's number.")
   print("After the conversation you feel relieved and know that now everything will be fine. ")
-  print("A couple days later the messages have stopped and the teacher asks you if you are fine")
+  print("A couple days later the teacher asks you if you are fine")
 
   #choice 6
-  print("a:","You tell her you are fine and thank her and give her a present")
-  print("b:","You tell her you are miserable and everything is breaking apart")
+  print("a:","You tell her you are fine,you have spoken to the therapist,and you feel better")
+  print("b:","Teary eyed you tell her you are miserable,things have become worse,and the therapist was of no help")
   choice_six = input("Which option do you pick? ")
 
 elif(choice_five =="b"):
   print("You go back to doing your homework feeling depressed and bottle your emotions up.")
   print("The next day at school you say nothing to any of your teachers and feel unsupported and even more depressed.")
-  print("Your troubles are starting to show in your school work.")
+  print("Your troubles have started to show in your school work.")
   print("As your phone keeps buzzing with more and more horrible jokes you dig yourself into a hole filled with isolation and depression.")
-  print("Eventually you get to a point where you can’t take it anymore.")
   print("A couple days later the messages reach to a point where they are hating on everything about you.")
   statement=output(finale)
   
