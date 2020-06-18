@@ -38,7 +38,7 @@ age=int(input("Enter an age from the options above:"))
 print("You are", age,"years old.Your family is not normal, it never was, you never had many friends or much of a social life.")
 print("You live in small town where everyone knows each other. Everyone judges you for your dysfunctional family.")
 print("However things become worse when the police comes to arrest your father for conducting a fraud of $",money)
-print("The next day you woke up to a series of negative messages on your social media accounts.")
+print("The next day you wake up to a series of negative messages on your social media accounts.")
 print("When you arrive at school everyone is gossiping about you.")
 print("At recess your best friend is laughing at you with other people,when you walk past her she wouldn’t make eye contact with you.")
 
